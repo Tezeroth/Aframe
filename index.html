@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <title>My A-Frame WebVR Experience</title>
     <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.163.0/three.module.min.js" integrity="sha512-g1j6pTQxNd1pZRKqxCPDEDg/QbDBNIvOgwo80Uew+V9xZweFEW4Hj4BlyvHKKAjze45oLDh5Ehe51UyZnwM2Jw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>sssssss
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <a-scene>
+        
         <a-sky src="assets/sky.jpg"></a-sky>
         <a-plane src="assets/floor.jpg" rotation="-90 0 0" width="30" height="30"></a-plane>
         <a-camera position="0 1.85 0"></a-camera>
@@ -25,7 +26,8 @@
         <a-entity position="14.5 0.5 14.5">
             <a-box src="assets/floor.jpg" width="1" height="1" depth="1"></a-box>
         </a-entity>
+        <a-entity position="0 -0.1 -5" scale="1.5 1.5 1.5" gltf-model="assets/scene.gltf"></a-entity>
     </a-scene>
-    
+
 </body>
 </html>

@@ -1,0 +1,523 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2645,
+      "max": [
+        7.845579147338867,
+        9.603832244873047,
+        12.487489700317383
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 31740,
+      "componentType": 5126,
+      "count": 2645,
+      "max": [
+        1.0,
+        0.999958872795105,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9999797344207764,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2645,
+      "max": [
+        0.9740200042724609,
+        0.9620239734649658
+      ],
+      "min": [
+        0.004999999888241291,
+        0.004999999888241291
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7530,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 63480,
+      "componentType": 5126,
+      "count": 28688,
+      "max": [
+        7.408214092254639,
+        9.13988208770752,
+        6.533670902252197
+      ],
+      "min": [
+        0.44845008850097656,
+        1.199409008026123,
+        2.139543056488037
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 407736,
+      "componentType": 5126,
+      "count": 28688,
+      "max": [
+        0.9999973773956299,
+        0.9999561309814453,
+        0.9999138712882996
+      ],
+      "min": [
+        -0.9999973773956299,
+        -0.9999561309814453,
+        -0.9961681365966797
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 21160,
+      "componentType": 5126,
+      "count": 28688,
+      "max": [
+        0.9694139957427979,
+        0.9828709959983826
+      ],
+      "min": [
+        0.004999999888241291,
+        0.004999999888241291
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 30120,
+      "componentType": 5125,
+      "count": 117936,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 751992,
+      "componentType": 5126,
+      "count": 3481,
+      "max": [
+        6.0628581047058105,
+        6.051321029663086,
+        12.481062889099121
+      ],
+      "min": [
+        1.7238590717315674,
+        1.943847894668579,
+        11.59979248046875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 793764,
+      "componentType": 5126,
+      "count": 3481,
+      "max": [
+        0.9999930262565613,
+        0.9966064691543579,
+        0.9978430271148682
+      ],
+      "min": [
+        -0.9999930262565613,
+        -0.9966063499450684,
+        -0.9978430271148682
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 250664,
+      "componentType": 5126,
+      "count": 3481,
+      "max": [
+        0.9623849987983704,
+        0.9695870280265808
+      ],
+      "min": [
+        0.004999999888241291,
+        0.024435000494122505
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 501864,
+      "componentType": 5125,
+      "count": 10344,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 835536,
+      "componentType": 5126,
+      "count": 2330,
+      "max": [
+        3.0780680179595947,
+        0.8526339530944824,
+        8.77690601348877
+      ],
+      "min": [
+        1.5427541732788086,
+        0.22111988067626953,
+        7.242743015289307
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 863496,
+      "componentType": 5126,
+      "count": 2330,
+      "max": [
+        0.9994989037513733,
+        1.0,
+        0.9994997382164001
+      ],
+      "min": [
+        -0.9994990229606628,
+        -1.0,
+        -0.9994997382164001
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 278512,
+      "componentType": 5126,
+      "count": 2330,
+      "max": [
+        0.9825729727745056,
+        0.9950000047683716
+      ],
+      "min": [
+        0.05977199971675873,
+        0.026202000677585602
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 543240,
+      "componentType": 5125,
+      "count": 11304,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 891456,
+      "componentType": 5126,
+      "count": 3382,
+      "max": [
+        6.387318134307861,
+        8.480426788330078,
+        12.861810684204102
+      ],
+      "min": [
+        1.454099178314209,
+        0.11255979537963867,
+        7.162948131561279
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 932040,
+      "componentType": 5126,
+      "count": 3382,
+      "max": [
+        0.9994578957557678,
+        0.9997555017471313,
+        1.0
+      ],
+      "min": [
+        -0.9999894499778748,
+        -0.999983549118042,
+        -0.9972962141036987
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 297152,
+      "componentType": 5126,
+      "count": 3382,
+      "max": [
+        0.9935569763183594,
+        0.967441976070404
+      ],
+      "min": [
+        0.004999999888241291,
+        0.004999999888241291
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 588456,
+      "componentType": 5125,
+      "count": 12693,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "tezz (https://sketchfab.com/Tezz)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/dalek-61741b5512914a9f944c8aafdade3507",
+      "title": "Dalek"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 639228,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 324208,
+      "byteOffset": 639228,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 972624,
+      "byteOffset": 963436,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1936060,
+      "uri": "dalek.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/None_baseColor_dalek.png"
+    },
+    {
+      "uri": "textures/None_metallicRoughness_dalek.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "None",
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_4",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.12120899558067322,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.691380353707045e-17,
+        -0.12120899558067322,
+        0.0,
+        0.0,
+        0.12120899558067322,
+        2.691380353707045e-17,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -3.9283320903778076,
+        -4.776433944702148,
+        -6.534481048583984,
+        1.0
+      ],
+      "name": "dalek.obj.cleaner.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_4"
+    },
+    {
+      "mesh": 3,
+      "name": "Object_5"
+    },
+    {
+      "mesh": 4,
+      "name": "Object_6"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

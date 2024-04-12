@@ -1,6 +1,11 @@
 # Aframe
 experimenting and getting to grips with a-frame
 
+yeah you are going to have to learn about navmeshes before diving in head first thinking you can move.
+tutorial time brb
+
+
+
 NTS checkout this: https://aframe.io/docs/1.5.0/components/oculus-touch-controls.html
 
 objectives

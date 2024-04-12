@@ -7,6 +7,10 @@
     <script src="https://cdn.jsdelivr.net/npm/aframe-extras@8.2.0/dist/aframe-extras.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.163.0/three.module.min.js" integrity="sha512-g1j6pTQxNd1pZRKqxCPDEDg/QbDBNIvOgwo80Uew+V9xZweFEW4Hj4BlyvHKKAjze45oLDh5Ehe51UyZnwM2Jw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>sssssss
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
+    <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>
+    <script src="https://unpkg.com/aframe-thumb-controls-component@1.1.0/dist/aframe-thumb-controls-component.min.js"></script>
+
 </head>
 <body>
     <a-scene>
@@ -30,7 +34,17 @@
         <a-entity position="-10 -0.1 -5" scale="0.022 0.022 0.022" gltf-model="assets/eggbot.gltf"></a-entity>
       <a-entity position="10 1.5 -5" scale="1.8 1.8 1.8" gltf-model="assets/dalek.gltf"></a-entity>
 
-      
+      <!-- nav-mesh: protecting us from running thru things  -->
+      <a-entity id="navmesh-Hello" gltf-model="assets/gltf/AdvHelloWorldnavmesh.gltf" visible="false" nav-mesh=""></a-entity>
+<!-- Basic movement and teleportation  -->
+      <a-entity id="cameraRig" movement-controls="constrainToNavMesh: true;" navigator="cameraRig: #cameraRig; cameraHead: #head; collisionEntities: .collision; ignoreEntities: .clickable" position="0 0 0" rotation="0 0 0">
+        <!-- camera -->
+        <a-entity id="head" camera="active: true" position="0 1.6 0" look-controls="pointerLockEnabled: true; reverseMouseDrag: true" ></a-entity>
+              <!-- Left Controller -->
+              <a-entity id="leftHand" hand-controls="hand: left; handModelStyle: lowPoly; color: #15ACCF" teleport-controls="cameraRig: #cameraRig; teleportOrigin: #head; button: trigger; curveShootingSpeed: 18; landingMaxAngle: 60" visible="true"></a-entity>
+              <!-- Right Controller -->
+              <a-entity id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #15ACCF" laser-controls raycaster="showLine: true; far: 10; interval: 0; objects: .clickable, a-link;" line="color: #7cfc00; opacity: 0.5" visible="true"></a-entity>
+      </a-entity>
     </a-scene>
    
 </body>

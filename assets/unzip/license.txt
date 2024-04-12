@@ -1,0 +1,11 @@
+Model Information:
+* title:	mightwork
+* source:	https://sketchfab.com/3d-models/mightwork-843bae8999744b3686dc5963ca89bda1
+* author:	tezz (https://sketchfab.com/Tezz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "mightwork" (https://sketchfab.com/3d-models/mightwork-843bae8999744b3686dc5963ca89bda1) by tezz (https://sketchfab.com/Tezz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

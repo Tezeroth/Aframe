@@ -6,7 +6,7 @@
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.163.0/three.module.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras/v4.1.2/dist/aframe-extras.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
     <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>
@@ -20,12 +20,12 @@
 
     <a-scene>
 <!-- Camera Rig -->
-<a-entity movement-controls="speed: 0.15" position="0 0 6">
+<a-entity movement-controls="speed: 0.10" position="0 0 6" thumbstick-navigation>
     <!-- Camera -->
     <a-entity camera postion="0 1.6 0"
-        look-controls="pointerLockEnabled: true; reverseMouseDrag: true"
-        wasd-controls="acceleration: 100"
-        thumbstick-navigation><cursor></cursor>
+        look-controls="pointerLockEnabled: false"
+        wasd-controls="acceleration: 75">
+        <cursor></cursor>
 </a-entity>
 
         <a-sky src="assets/Sky.jpg"></a-sky>

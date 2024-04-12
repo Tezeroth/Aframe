@@ -19,6 +19,15 @@
 
 
     <a-scene>
+<!-- Camera Rig -->
+<a-entity movement-controls="speed: 0.15" position="0 0 6">
+    <!-- Camera -->
+    <a-entity camera postion="0 1.6 0"
+        look-controls="pointerLockEnabled: true; reverseMouseDrag: true"
+        wasd-controls="acceleration: 100"
+        thumbstick-navigation><cursor></cursor>
+</a-entity>
+
         <a-sky src="assets/Sky.jpg"></a-sky>
         <a-plane src="assets/floor.jpg" rotation="-90 0 0" width="30" height="30"></a-plane>
         <a-camera position="0 1.85 0"></a-camera>

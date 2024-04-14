@@ -6,7 +6,7 @@
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
   
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.163.0/three.module.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras/v7.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.0.0/dist/aframe-extras.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
     <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>
@@ -18,7 +18,7 @@
 <body>
 
 
-    <a-scene>
+    <a-scene background="color: #FFFFFF">
 <!-- Camera Rig -->
 <!-- <a-entity movement-controls="speed: 0.10" position="0 0 6" thumbstick-navigation> -->
     <!-- Camera -->
@@ -33,15 +33,16 @@
           nipple-controls="mode: static">
   <a-entity camera
             position="0 1.6 0"
-            look-controls="pointerLockEnabled: true">
+            look-controls="pointerLockEnabled: true"
+            wasd-controls="acceleration: 75">
   </a-entity>
 </a-entity>
 
-        <a-sky src="assets/Sky.jpg"></a-sky>
+        <!-- <a-sky src="assets/Sky.jpg"></a-sky> -->
         <a-plane src="assets/floor.jpg" rotation="-90 0 0" width="30" height="30"></a-plane>
 
   
-        <a-entity position="-14.5 0.5 -14.5">
+        <!-- <a-entity position="-14.5 0.5 -14.5">
             <a-box src="assets/floor.jpg" width="1" height="1" depth="1"></a-box>
         </a-entity>
         <a-entity position="-14.5 0.5 14.5">
@@ -52,7 +53,7 @@
         </a-entity>
         <a-entity position="14.5 0.5 14.5">
             <a-box src="assets/floor.jpg" width="1" height="1" depth="1"></a-box>
-        </a-entity>
+        </a-entity> -->
         <a-entity position="-10 0 -5" scale="0.022 0.022 0.022" gltf-model="assets/eggbot.gltf"></a-entity>
       <a-entity position="10 1.5 -5" scale="1.8 1.8 1.8" gltf-model="assets/dalek.gltf" animation="property: rotation;
       to: 0 360 0;

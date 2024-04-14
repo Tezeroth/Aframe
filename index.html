@@ -20,12 +20,21 @@
 
     <a-scene>
 <!-- Camera Rig -->
-<a-entity movement-controls="speed: 0.10" position="0 0 6" thumbstick-navigation>
+<!-- <a-entity movement-controls="speed: 0.10" position="0 0 6" thumbstick-navigation> -->
     <!-- Camera -->
-    <a-entity camera postion="0 1.6 0"
+    <!-- <a-entity camera postion="0 1.6 0"
         look-controls="pointerLockEnabled: false"
         wasd-controls="acceleration: 75">
         <cursor></cursor>
+</a-entity> -->
+
+<a-entity id="rig"
+          movement-controls="controls: gamepad,keyboard,nipple"
+          nipple-controls="mode: static">
+  <a-entity camera
+            position="0 1.6 0"
+            look-controls="pointerLockEnabled: true">
+  </a-entity>
 </a-entity>
 
         <a-sky src="assets/Sky.jpg"></a-sky>
@@ -71,27 +80,27 @@ autoplay>></a-entity>
 <script>
     window.addEventListener('touchmove', handleTouchMove, { passive: true });
 
-    // AFRAME.registerComponent('thumbstick-navigation', {
-    //     init: function () {
-    //         const cameraEl = this.el.querySelector('[camera]');
-    //         const thumbstickSensitivity = 0.05;
+     AFRAME.registerComponent('thumbstick-navigation', {
+         init: function () {
+             const cameraEl = this.el.querySelector('[camera]');
+             const thumbstickSensitivity = 0.05;
 
-    //         this.el.addEventListener('thumbstickmoved', (event) => {
-    //             const thumbstick = event.detail.axis;
-    //             const xMovement = thumbstick[0] * thumbstickSensitivity;
-    //             const zMovement = thumbstick[1] * thumbstickSensitivity;
+             this.el.addEventListener('thumbstickmoved', (event) => {
+                 const thumbstick = event.detail.axis;
+                 const xMovement = thumbstick[0] * thumbstickSensitivity;
+                 const zMovement = thumbstick[1] * thumbstickSensitivity;
 
-    //             const currentPosition = cameraEl.getAttribute('position');
-    //             const newPosition = {
-    //                 x: currentPosition.x + xMovement,
-    //                 y: currentPosition.y,
-    //                 z: currentPosition.z - zMovement
-    //             };
+                 const currentPosition = cameraEl.getAttribute('position');
+                 const newPosition = {
+                     x: currentPosition.x + xMovement,
+                     y: currentPosition.y,
+                     z: currentPosition.z - zMovement
+                 };
 
-    //             cameraEl.setAttribute('position', newPosition);
-    //         });
-    //     }
-    // });
+                 cameraEl.setAttribute('position', newPosition);
+             });
+         }
+     });
 
 </script>
 

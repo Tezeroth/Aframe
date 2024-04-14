@@ -1,5 +1,6 @@
 # Aframe
 experimenting and getting to grips with a-frame
+![Screenshot 2024-04-14 210500](https://github.com/Tezeroth/Aframe/assets/64762171/381c7046-d8cb-4b0b-92ee-6efffc48cb96)
 
 yeah you are going to have to learn about navmeshes before diving in head first thinking you can move.
 tutorial time brb

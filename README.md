@@ -1,15 +1,12 @@
 # Aframe
 experimenting and getting to grips with a-frame
+CLICK HERE: https://tezeroth.github.io/Aframe/
 
-yeah you are going to have to learn about navmeshes before diving in head first thinking you can move.
-tutorial time brb
+![Screenshot 2024-04-14 210500](https://github.com/Tezeroth/Aframe/assets/64762171/381c7046-d8cb-4b0b-92ee-6efffc48cb96)
 
-try these tonight in the quest browser https://immersive-web.github.io/webxr-samples/
+This is my effort to get my 3d models displayed on a website that I can then visit, and move around in VR or WASD controls on Desktop.
 
-
-NTS checkout this: https://aframe.io/docs/1.5.0/components/oculus-touch-controls.html
-
-objectives
+OVERALL OBJECTIVES
 
 1. navigation with wasd keyboard or oculus thumbsticks and teleport
 2. advanced animation of models. pbr model integration and its effect on framerate

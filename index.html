@@ -20,14 +20,15 @@
 
 
     <a-scene background="color: #FFFFFF">
-<!-- Camera Rig -->
-<!-- <a-entity movement-controls="speed: 0.10" position="0 0 6" thumbstick-navigation> -->
-    <!-- Camera -->
-    <!-- <a-entity camera postion="0 1.6 0"
-        look-controls="pointerLockEnabled: false"
-        wasd-controls="acceleration: 75">
-        <cursor></cursor>
-</a-entity> -->
+        <a-assets>
+            <a-asset-item id="eggbot" src="assets/eggbot.gltf"></a-asset-item>
+            <a-asset-item id="dalek" src="assets/dalek.gltf"></a-asset-item>
+            <a-asset-item id="robo" src="assets/robo.gltf"></a-asset-item>
+            <a-asset-item id="floor" src="assets/floor.jpg"></a-asset-item>
+            <a-asset-item id="sky" src="assets/Sky.jpg"></a-asset-item>
+            <a-asset-item id="wind" src="assets/wind.mp3"></a-asset-item>
+        </a-assets>
+
 
 <a-entity id="rig"
           movement-controls="controls: gamepad,keyboard,nipple"
@@ -43,18 +44,7 @@
         <a-plane src="assets/floor.jpg" rotation="-90 0 0" width="30" height="30"></a-plane>
 
   
-        <!-- <a-entity position="-14.5 0.5 -14.5">
-            <a-box src="assets/floor.jpg" width="1" height="1" depth="1"></a-box>
-        </a-entity>
-        <a-entity position="-14.5 0.5 14.5">
-            <a-box src="assets/floor.jpg" width="1" height="1" depth="1"></a-box>
-        </a-entity>
-        <a-entity position="14.5 0.5 -14.5">
-            <a-box src="assets/floor.jpg" width="1" height="1" depth="1"></a-box>
-        </a-entity>
-        <a-entity position="14.5 0.5 14.5">
-            <a-box src="assets/floor.jpg" width="1" height="1" depth="1"></a-box>
-        </a-entity> -->
+
         <a-entity position="-10 0 -5" scale="0.022 0.022 0.022" gltf-model="assets/eggbot.gltf"></a-entity>
       <a-entity position="10 1.5 -5" scale="1.8 1.8 1.8" gltf-model="assets/dalek.gltf"></a-entity>
     <a-entity position="0 0 -5" scale="1 1 1" gltf-model="assets/robo.gltf"></a-entity> 

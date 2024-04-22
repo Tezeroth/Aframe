@@ -10,7 +10,7 @@ OVERALL OBJECTIVES
 
 1. navigation with wasd keyboard or oculus thumbsticks and teleport
 2. advanced animation of models. pbr model integration and its effect on framerate
-3. Animated giffs with transparencies in 3d space
+3. Animated giffs with transparencies in 3d space. this will help https://jsfiddle.net/Lwtzjnk9/1/
 4. nav meshes and collision detection
 5. event listeners on objects (selected by raycasting, viewpoint selection(nts find out the term for that) or mouseclick
 6. links to other scenes

@@ -7,6 +7,7 @@ CLICK HERE: https://tezeroth.github.io/Aframe/
 This is my effort to get my 3d models displayed on a website that I can then visit, and move around in VR or WASD controls on Desktop.
 
 - can this scene be baked (with animations) for an utterly massive performance boost, and then have navmeshes, interactivity applied after?
+- ok so animated giff works with 1.20 and giff shader cdn locally but not hosted (find out why)
 
 OVERALL OBJECTIVES
 

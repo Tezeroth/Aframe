@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>My A-Frame WebVR Experience</title>
-    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    
   
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.163.0/three.module.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.0.0/dist/aframe-extras.min.js"></script>
@@ -47,15 +48,15 @@
   <a-entity camera
             position="0 1.8d 0"
             look-controls="pointerLockEnabled: true"
-            wasd-controls="acceleration: 75">
+            wasd-controls="acceleration: 35">
   </a-entity>
 </a-entity>
 <!--find the animation loop name from sketchfab in this case: clip:Armature|mixamo.com|Layer0s -->
 <a-entity  shadow="cast:true"   gltf-model="#mightwork" scale="1 1 1" position="0 0 -5" animation-mixer="clip:Armature|mixamo.com|Layer0; loop:"></a-entity>
 <a-entity gltf-model="#lampost" scale="1 1 1" position="0 0 -4.720"></a-entity>
-<a-entity position="-10 0 -5" scale="0.015 0.015 0.015" gltf-model="assets/eggbot.gltf"></a-entity>
-<a-entity position="-10 0 -5" scale="0.022 0.022 0.022" gltf-model="assets/dalek.gltf"></a-entity>
-<a-entity position="10 1 -5" scale="1.2 1.2 1.2" gltf-model="assets/dalek.gltf"></a-entity>
+<a-entity position="-5 0 -5" scale="0.015 0.015 0.015" gltf-model="assets/eggbot.gltf"></a-entity>
+
+<a-entity position="3 1 -5" scale="1.2 1.2 1.2" gltf-model="assets/dalek.gltf"></a-entity>
 <!-- <a-entity position="0 0 -5" scale="1 1 1" gltf-model="assets/robo.gltf"></a-entity>  -->
 <a-entity position="0 0 -5" scale="1 1 1" sound="src: assets/wind.mp3; autoplay: true; loop: true"></a-entity>
    
@@ -74,13 +75,14 @@
 
   <!--custom light | Ambient-->
      <a-entity light="type:ambient;
-                      intensity:0.6;">
+                      intensity:0.4;">
      </a-entity>
   <!--custom light | point-->
      <a-entity light="type:point;
-                      intensity:2s;
+                      intensity:5;
                       distance:10;
                       castShadow:true;"
+                      color="#FFA500"
                       position="0 6.472 -4.699">
 </a-entity>
 </a-scene>

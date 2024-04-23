@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>My A-Frame WebVR Experience</title>
-    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
-    
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
   
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.163.0/three.module.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.0.0/dist/aframe-extras.min.js"></script>
@@ -55,7 +55,11 @@
 <a-entity  shadow="cast:true"   gltf-model="#mightwork" scale="1 1 1" position="0 0 -5" animation-mixer="clip:Armature|mixamo.com|Layer0; loop:"></a-entity>
 <a-entity shadow="cast:true" gltf-model="#lampost" scale="1 1 1" position="0 0 -4.720"></a-entity>
 <a-entity shadow="cast:false" rotation="0 75" position="-6 0 -5" scale="0.015 0.015 0.015" gltf-model="assets/eggbot.gltf"></a-entity>
-<a-plane src="assets/text.gif" rotation="0 0 0" width="23" height="1" position="0 5 -15" transparent="true" ></a-plane>
+
+
+<!-- <a-plane src="assets/text.gif" rotation="0 0 0" width="23" height="1" position="0 5 -15" transparent="true" ></a-plane> -->
+<a-plane position="0 5 -15" rotation="0 0 0" width="23" height="1" material="shader:gif; src:url(assets/text.gif); transparent:true; opacity:.8"></a-plane>
+
 <a-entity shadow="cast:true" position="3 1 -5" scale="1.2 1.2 1.2" gltf-model="assets/dalek.gltf"></a-entity>
 <!-- <a-entity position="0 0 -5" scale="1 1 1" gltf-model="assets/robo.gltf"></a-entity>  -->
 <a-entity position="0 0 -5" scale="1 1 1" sound="src: assets/wind.mp3; autoplay: true; loop: true"></a-entity>

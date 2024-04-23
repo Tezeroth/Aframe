@@ -17,7 +17,7 @@ OVERALL OBJECTIVES
 5. event listeners on objects (selected by raycasting, viewpoint selection(nts find out the term for that) or mouseclick
 6. links to other scenes
 7. positional audio
-8. animated video hdri/skybox - this is going to be complicated - see about seamless textures and particle generators in blender
+8. animated video hdri/skybox - this is going to be complicated - see about seamless textures and particle generators in blender. finding free equirectangular images is a nightmare.
 9. networking with other users utilizing relevant technologies via cdns and API's
 10. Integration of point scans. the workflow required to get a low poly with a high poly bake
 11. scene optimization, for both webxr/aframe and unity. it must run on a potato

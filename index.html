@@ -23,15 +23,19 @@
     <a-asset-item id="mightwork" src="assets/mightwork.glb"></a-asset-item>
     <a-asset-item id="lampost" src="assets/lampost.glb"></a-asset-item>
     <a-asset-item id="trees" src="assets/trees.glb"></a-asset-item>
-    <!-- <a-asset-item id="cobbles" src="assets/Plane_Bake/T_Plane_diffuse_xtm_bake_D.png"></a-asset-item> -->
+
     <a-asset-item id="cobblesNM" src="/assets/Plane_Bake/T_Plane_normal_xtm_bake_N.png"></a-asset-item>
+    <a-asset-item id="cobblesRM" src="/assets/Plane_Bake/T_Plane_roughness_xtm_bake_R.png"></a-asset-item> 
+    <a-asset-item id="cobblesDM" src="/assets/Plane_Bake/T_Plane_diffuse_xtm_bake_AO.png"></a-asset-item>
+    <a-asset-item id="cobblesMM" src="/assets/Plane_Bake/glossycobblebake.png"></a-asset-item>
+
 
     <!-- <img id="backgroundInsideHouse" crossorigin="anonymous" src="https://cdn.glitch.com/e6225ccd-c32e-4cf8-b039-e78814a8cb78%2Fbg-3.jpg">-->
 
 
 
     
-
+<!--REMEMBER CROSSORIGIN. ALL THAT FCKING ABOUT. JEEZ-->
 
       <img id="aiskybox" crossorigin="anonymous" src="assets/aiskybox.png">
 
@@ -41,9 +45,11 @@
         <!-- <a-sky id="background-img" src="#backgroundInsideHouse"></a-sky> -->
         <a-sky id="background-img" src="#aiskybox"></a-sky>
         <!-- <a-sky color="#212121"></a-sky> -->
-        <!-- <a-plane src="assets/floor.jpg" rotation="-90 0 0" width="30" height="30" shadow="recieve:true"></a-plane> -->
+        <!-- <a-plane src="assets/floor.jpg" rotation="-90 0 0" width="30" height="30" shadow="recieve:true"></a-plane>  -->
 
-        <a-plane src="assets/Plane_Bake/T_Plane_diffuse_xtm_bake_D.png" shadow="recieve:true"   gltf-model="#cobbles" scale="1 1 1" position="0 0 -5" rotation="-90 0 0" width="30" height="30" normal-map="#cobblesNM" repeat="5 5" roughness="0.5"></a-plane>
+        <a-plane src="assets/Plane_Bake/T_Plane_diffuse_xtm_bake_D.png" shadow="recieve:true"   gltf-model="#cobbles" scale="1 1 1" position="0 0 -5" rotation="-90 0 0" width="30" height="30" normal-map="#cobblesNM" repeat="5 5" roughnessMap="#cobblesRM" roughness="1" metalnessMap="#cobblesMM" displacementMap="#cobblesDM"
+        displacementScale="100"></a-plane>
+
         
         <!--Default lighting for an A-Frame Scene-->
         <!-- ambient light-->

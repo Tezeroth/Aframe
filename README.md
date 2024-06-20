@@ -23,3 +23,5 @@ OVERALL OBJECTIVES
 10. Integration of point scans. the workflow required to get a low poly with a high poly bake
 11. scene optimization, for both webxr/aframe and unity. it must run on a potato
 12. open windows in vr mode? (https://ur0.jp/oVX2d)
+
+13. SEE HOW EFFECTIVE THIS IS: https://github.com/primaryobjects/unity-to-aframe/blob/main/README.md
